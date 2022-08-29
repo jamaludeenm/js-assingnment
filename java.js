@@ -42,8 +42,24 @@
 {
 	let a=1/2;
 	let b=4;
-	let h=4;
+	let h=8;
 	let A=a*b*h;
 	document.write(A)
 	document.write("<br>")
 }
+//calculating simple intrest
+{
+  var p,t,r,SI;
+    p=15;
+    t=12;
+    r=12;
+    SI=(p*t*r)/100;
+    document.write(SI);
+	document.write("<br>")
+}
+//calculating square
+{
+  let a=Math.pow(4,2);
+  document.write(a);
+  document.write("<br>")
+}		
