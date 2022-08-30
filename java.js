@@ -62,4 +62,23 @@
   let a=Math.pow(4,2);
   document.write(a);
   document.write("<br>")
-}		
+}	
+//calculating cube
+{
+  let a=Math.pow(3,3);
+   document.write(a);
+  document.write("<br>")
+}
+//Program to SWAP two numbers
+{
+   var a,b,c;
+   a=1;
+   b=2;
+   
+   c=a;
+   a=b;
+   b=c;
+   document.write(a);
+    document.write(b);
+  document.write("<br>")
+}
