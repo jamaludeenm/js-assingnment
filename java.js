@@ -69,7 +69,7 @@
    document.write(a);
   document.write("<br>")
 }
-//Program to SWAP two numbers
+//Program to SWAP two numbers with temp var
 {
    var a,b,c;
    a=1;
@@ -78,7 +78,33 @@
    c=a;
    a=b;
    b=c;
+document.write(a);
+   document.write(b);
+   document.write("<br>")
+}
+//Program to SWAP two numbers without temp var
+{
+   var a,b;
+   a=1;
+   b=2;
+   
+   a=a+b;
+   b=a-b;
+   a=a-b;
    document.write(a);
-    document.write(b);
-  document.write("<br>")
+   document.write(b);
+   document.write("<br>")
+}
+//Program to check number is positive or not
+{
+	var a,b;
+	a=1;
+	b=2;
+	if(a>b){
+		document.write("greater")
+	}
+	else if(b>a) {
+		document.write("lesser")
+	}
+	document.write();
 }
