@@ -99,12 +99,32 @@ document.write(a);
 {
 	var a,b;
 	a=1;
-	b=2;
-	if(a>b){
-		document.write("greater")
+	b=-2;
+	if(a&&b == Math.sign(1)){
+		document.write("positive")
 	}
-	else if(b>a) {
-		document.write("lesser")
+	else if(a||b == Math.sign(-1)) {
+		document.write("negative")
 	}
 	document.write();
+	document.write("<br>");
 }
+
+//switchcase
+{
+	let cash= "10001";
+	
+	switch (true){
+		case (cash > 60000):
+		   document.write("Buy An I-phone");
+		   break;
+		case (cash > 10000):
+		   document.write("Buy Android Mobile");
+		   break;
+		case (cash > 5000):
+		case (cash < 10000):
+		   document.write("Buy a Basic Mobile");
+		   break;
+	}
+}
+		
